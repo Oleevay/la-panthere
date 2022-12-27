@@ -658,7 +658,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000;
+    color:black;
 }
 
 .container {
@@ -684,7 +684,7 @@ a {
 }
 /*modif*/
 p {
-    font-size: 18px;
+    font-size: 20px;
     color: #000;
 }
 /*fin*/
@@ -710,7 +710,6 @@ p {
 .social {
     display: flex;
     justify-content: space-around;
-    /*max-width: 400px;*/
     margin: 20px 10px;
 }
 /*fin*/
@@ -762,12 +761,12 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+/*modification
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
-
+/*fin */
 .bold-link {
     font-weight: 900;
     text-decoration: underline !important;
@@ -785,9 +784,9 @@ h4 {
     background-color: #F3976C;
 }
 /*modification*/
-/*.tc-white {
-    color: #fccf6f;
-}*/
+.tc-white {
+    color: #F3976C;
+}
 /*fin*/
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -839,27 +838,24 @@ h4 {
 .tc-footer {
     padding-left: 10px;
     padding-right: 10px;
+    font-size:18px ;
     color: #000;
     text-align: center;
 }
-
-.footer-left {
+ .reseaux{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    margin:20px 10px;
+ }
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.footer-middle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.footer-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 /*les breakpoints*/
 @media(max-width:768px) {
