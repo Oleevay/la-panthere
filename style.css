@@ -661,6 +661,12 @@ a {
     color:black;
 }
 
+/*modification*/
+.soustitle{
+color: #FFF;
+font-size: 23px;
+}
+/*fin*/
 .container {
     max-width: 1000px;
 }
@@ -684,7 +690,7 @@ a {
 }
 /*modif*/
 p {
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
 }
 /*fin*/
@@ -744,11 +750,11 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+/*modification*/
 .white {
-    color: #FFFFFF !important;
+    color: black!important;
 }
-
+/*fin*/
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -780,25 +786,26 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
+/*.bgc-atomic-tangerine {
     background-color: #F3976C;
-}
+}*/
 /*modification*/
 .tc-white {
-    color: #F3976C;
+    color:white;
 }
-/*fin*/
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #6E1FB7;
     color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: rgb(191, 138, 241)!important;
     color: #FFFFFF !important;
 }
+/*fin*/
 /*modification*/
-.ltc-white {
+/*.ltc-white {
     color: #fccf6f !important;
 }
 /*fin modif*/ 
@@ -856,7 +863,20 @@ h4 {
     justify-content: space-around;
 }
 
-
+.secteurs-activites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:20px 10px;
+}
+.mentions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:20px 10px;  
+}
 /*les breakpoints*/
 @media(max-width:768px) {
 
