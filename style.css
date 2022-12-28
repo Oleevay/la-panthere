@@ -786,9 +786,9 @@ h4 {
     background-color: #364577;
 }
 
-/*.bgc-atomic-tangerine {
+.bgc-atomic-tangerine {
     background-color: #F3976C;
-}*/
+}
 /*modification*/
 .tc-white {
     color:white;
@@ -805,7 +805,7 @@ h4 {
 }
 /*fin*/
 /*modification*/
-/*.ltc-white {
+.ltc-white {
     color: #fccf6f !important;
 }
 /*fin modif*/ 
@@ -842,27 +842,6 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-.tc-footer {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size:18px ;
-    color: #000;
-    text-align: center;
-}
- .reseaux{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin:20px 10px;
- }
-
-.footer-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 .secteurs-activites{
     display: flex;
     flex-direction: column;
@@ -870,12 +849,14 @@ h4 {
     justify-content: space-around;
     margin:20px 10px;
 }
+
 .mentions{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin:20px 10px;  
+    margin:20px 10px;
+    color: #000;  
 }
 /*les breakpoints*/
 @media(max-width:768px) {
@@ -893,7 +874,7 @@ h4 {
 }
 
 
-/*@media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -1107,4 +1088,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}*/
+}
