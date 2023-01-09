@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("../img/texture-paper.webp");
     background-size: 280px 280px;
+    opacity:0.3;
 }
 
 .b-parallax {
@@ -747,6 +748,13 @@ h3 {
     color: #000;
 }
 
+/*modif*/
+.star{
+    font-size: 19px;
+    color: gold;
+}
+/*fin modif*/
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -805,7 +813,7 @@ h4 {
 }
 /*modification*/
 .bgc-atomic-tangerine {
-    background-color: #049ff3;
+    background-color: #1da6f0fb;
 }
 
 
@@ -817,19 +825,19 @@ h4 {
     color:#FFFFFF;
 }
 .btn-atomic-tangerine {
-    background: #049ff3fb;
-    color: #000 !important
+    background:#1da6f0fb;
+    color: #FFFFFF!important
 }
 
 .btn-atomic-tangerine:hover {
-    background: #1da6f09e !important;
+    background: #46bbfafb !important;
     color: #FFFFFF !important;
 }
 
 /*fin*/
 /*modification*/
 .ltc-white {
-    color: #1da6f09e !important;
+    color: #1da6f0fb !important;
 }
 
 /*fin modif*/
@@ -839,11 +847,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #1da6f09e !important;
+    color: #1da6f0fb !important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #1da6f09e !important;
+    color:#1da6f0fb !important;
 }
 
 .icon-dark-slate-blue {
