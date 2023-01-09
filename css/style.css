@@ -700,10 +700,10 @@ p {
     color: #000;
 }
 
-.secteuractivite{
+.activite{
     display: flex;
     font-size: 18px;
-    color: #000;
+    color: #FFFFFF;
 }
 /*fin*/
 
@@ -732,6 +732,7 @@ p {
     justify-content: space-around;
     margin: 20px 10px;
     align-items: center;
+    color: #FFFf;
 }
 
 .titlesocial {
@@ -739,6 +740,7 @@ p {
     flex-direction: row;
     align-items: center;
     font-size: 18px;
+    color:#FFFF ;
 }
 
 /*fin*/
@@ -783,7 +785,7 @@ h4 {
 
 /*modification*/
 .white {
-    color: black !important;
+    color: #ffff !important;
 }
 /*fin*/
 
@@ -823,7 +825,7 @@ h4 {
 
 
 .tc-white {
-    color: #000;
+    color: #FFFF;
 }
 
 .tc{
@@ -842,7 +844,7 @@ h4 {
 /*fin*/
 /*modification*/
 .ltc-white {
-    color: #ab1231 !important;
+    color: #ab1231!important;
 }
 
 /*fin modif*/
@@ -856,7 +858,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color:#ab1231 !important;
+    color:#1da6f0fb !important;
 }
 
 .icon-dark-slate-blue {
@@ -895,7 +897,7 @@ h4 {
     align-items: center;
     justify-content: space-around;
     margin: 20px 10px;
-    color: #000;
+    color: #FFFF;
 }
 
 /*fin modif*/
