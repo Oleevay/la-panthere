@@ -700,6 +700,11 @@ p {
     color: #000;
 }
 
+.secteuractivite{
+    display: flex;
+    font-size: 18px;
+    color: #000;
+}
 /*fin*/
 
 .tight-width-whitespace {
@@ -822,7 +827,7 @@ h4 {
 }
 
 .tc{
-    color:#FFFFFF;
+    color:#FFFF;
 }
 .btn-atomic-tangerine {
     background:#1da6f0fb;
@@ -900,7 +905,7 @@ h4 {
 @media(max-width:768px) {
 
     .navbar.row {
-        margin-left: 0;
+        margin-left: 1;
         margin-right: 0;
     }
 }
@@ -1151,14 +1156,22 @@ h4 {
         height: 320px;
     }
 }
-
+/*modif*/
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+    .social{
+        flex-direction: column;
+        margin:10px;
+    }
+    .secteuractivite{
+        margin:10px;
+        justify-content: center;
+    }
 }
-
+/*fin modif*/
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
