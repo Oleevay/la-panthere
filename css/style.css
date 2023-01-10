@@ -703,7 +703,7 @@ p {
 .activite{
     display: flex;
     font-size: 18px;
-    color: #FFFFFF;
+   color: rgb(7, 7, 7);
 }
 /*fin*/
 
@@ -732,7 +732,11 @@ p {
     justify-content: space-around;
     margin: 20px 10px;
     align-items: center;
-    color: #FFFf;
+    color: rgb(7, 7, 7);
+}
+
+.social:hover{
+    color: #FFFF;
 }
 
 .titlesocial {
@@ -740,7 +744,7 @@ p {
     flex-direction: row;
     align-items: center;
     font-size: 18px;
-    color:#FFFF ;
+    color:rgb(7, 7, 7) ;
 }
 
 /*fin*/
@@ -785,7 +789,7 @@ h4 {
 
 /*modification*/
 .white {
-    color: #ffff !important;
+    color:rgb(7, 7, 7) !important;
 }
 /*fin*/
 
@@ -820,45 +824,44 @@ h4 {
 }
 /*modification*/
 .bgc-atomic-tangerine {
-    background-color: #ab1231;
+    background-color: #1e95f7;
 }
 
 
 .tc-white {
-    color: #FFFF;
+    color: rgb(7, 7, 7);
 }
 
 .tc{
     color:#FFFF;
 }
+
 .btn-atomic-tangerine {
-    background:#ab1231;
-    color: #FFFFFF!important
+    background:#1e95f7;
+    color: rgb(7, 7, 7)!important
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ab1231 !important;
+    background: #4dacf9 !important;
     color: #FFFFFF !important;
 }
 
 /*fin*/
 /*modification*/
 .ltc-white {
-    color: #ab1231!important;
+    color: #1e95f7!important;
 }
-
-/*fin modif*/
 
 .ltc-white:hover {
     color: #cccccc !important;
 }
 
 .ltc-atomic-tangerine {
-    color: #ab1231 !important;
+    color: #1e95f7 !important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color:#1da6f0fb !important;
+    color:#FFFFFF  !important;
 }
 
 .icon-dark-slate-blue {
@@ -866,7 +869,6 @@ h4 {
     border-color: #364577 !important;
 }
 
-/*les modifications*/
 .bg-dots-bg {
     background-image: url("../img/dots-bg.webp");
 }
@@ -883,7 +885,7 @@ h4 {
     background-image: url("../img/image-de-presentation.webp");
 }
 
-.secteurs-activites {
+.secteurs-activites{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -891,15 +893,19 @@ h4 {
     margin: 20px 10px;
 }
 
-.mentions {
+  .mentions {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    font-size:16px ;
     margin: 20px 10px;
+    color: rgb(7, 7, 7);
+}
+
+ .mentions:hover{
     color: #FFFF;
 }
-
 /*fin modif*/
 
 /*les breakpoints*/
